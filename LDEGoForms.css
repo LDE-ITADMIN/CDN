@@ -1,0 +1,51 @@
+/* 
+    Created on : 1 June 2023, 8:06:50 am
+    Author     : brett
+*/
+
+.card-header {
+    color: black;
+    background-color: #A9A9A9;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background-color: #A9A9A9;
+}
+
+#overlayDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.centered-div {
+    width: 80%;
+    margin: 0 auto;
+    /* This centers the div horizontally */
+    background-color: lightgray;
+    padding: 20px;
+}
+#ldegoForm {
+    margin-bottom: 20px;
+}
+
+.revision {
+    text-align: center; /* Add this line to center the version */
+    font-size: 12px;
+    color: gray;
+}
+#processingModal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
